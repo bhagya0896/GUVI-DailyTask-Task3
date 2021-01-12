@@ -5,7 +5,6 @@ request.onload=function(){
     var countrydata=JSON.parse(this.response)
     for( var i in countrydata)
     {
-        
         console.log(countrydata[i].name, countrydata[i].flag);
     }
 }
